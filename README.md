@@ -31,6 +31,13 @@ x y f(x, y)
 
 - Java JDK 11 or newer
 - Eclipse is optional; the repository includes Eclipse project metadata
+- A `.tool-versions` file pins JDK 11 for asdf users
+
+Install the pinned toolchain with asdf:
+
+```bash
+asdf install
+```
 
 ## Build and run
 
